@@ -1,0 +1,264 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+	background-color: rgb(13, 13, 13);
+}
+
+body:hover {
+	border: 5px wheat solid;
+}
+
+table {
+	margin: 0;
+	width: 400px;
+}
+
+th {
+	background: wheat;
+	color: rgb(13, 13, 13) ;
+	padding: 10px 20px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+}
+
+td {
+	padding: 20px;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	text-align: center;
+}
+
+table, th ,td {
+	border-collapse: collapse;
+	border-radius: 15px;
+}
+
+.caja {
+	transition: .3s;
+	transform: rotate(45deg);
+	opacity: 0;
+
+}
+
+/*.centro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}*/
+
+.caja:hover {
+	transform: rotate(0deg);
+	opacity: 1;
+}
+
+.logo {
+	margin-top: 30px;
+	margin-left: 200px;
+	width: 330px;
+}
+
+.logo:hover {
+	transform: scale(1.2);
+}
+
+.background {
+	background-image: url("../imagenes/1.png");
+	background-size: cover;
+	padding-bottom: 60px;
+}
+
+.transicion, .logo {
+	transition: .3s;
+	opacity: 1;
+}
+
+.transicion:hover {
+	opacity: 0.5;
+}
+
+.contenedor {
+	margin: auto;
+	margin-left: 35px;
+	width: 1400px;
+}
+
+.contenedor h1 {
+	padding-top: 100px;
+}
+
+.titulo {
+	font-family: 'Indie Flower', cursive;
+	font-size: 70px;
+	margin: 0;
+	color: wheat;
+}
+
+.resumen {
+	font-size: 24px;
+	margin-top:0;
+	color: wheat;
+	width: 400px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.background table { 
+	margin-left: 90px;
+  position: relative;
+  top: 50px;
+}
+
+.portada {
+background-color: rgb(13, 13, 13);
+padding-bottom: 50px;
+}
+
+.header {
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.menu li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: wheat;
+	border-right: 1px wheat solid;
+}
+
+.buscador {
+	margin-left: 170px;	
+}
+
+.button1 {
+	border-radius: 5px;
+	border: none;
+	color:white;
+	margin-top: 15px;
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	background: linear-gradient(to left, wheat, rgb(137, 100, 71) );
+	position: absolute;
+  top: 60px;
+  margin-left: 20px;
+}
+
+.button2 {
+	border-radius: 5px;
+	border: none;
+	color:white;
+	margin-top: 15px;
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	background: linear-gradient(to left, wheat, rgb(137, 100, 71) );
+	margin-left: 15px;
+	margin-bottom: 30px;
+}
+
+.s1, .s2, .s3, .s4 {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+
+.s1 img, .s2 img, .s3 img, .s4 img {
+	width: 400px;
+	height:506px;
+	border-radius: 30px;
+}
+
+.s5 {
+	display: flex;
+	justify-content: center;
+}
+
+.s5 h3 {
+	color: white;
+}
+
+.footer {
+	background: #273b47;
+	margin-top: 60px;
+}
+
+.contacto img {
+	display: block;
+	padding-top: 50px;
+}
+
+.contacto {
+	margin-left: 220px;
+	display: flex;
+	width: 400px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.contacto strong {
+	display: block;
+}
+
+.contacto a {
+	font-family: 'Montserrat', helvetica;
+	font-size: 20px;
+	color: white;
+	text-decoration:none;
+	margin: auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.footer .contenedor {
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario {
+	display: flex;
+	width: 500px;
+	color: white;
+}
+
+.formulario label {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.formulario input {
+	margin-bottom: 15px;
+}
+
+.col1, .col2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.col1 {
+	margin-right: 20px;
+}
+
+.col2 {
+	align-items: flex-start;
+	margin-top: 60px;
+}
+
+.col2 .button{
+	margin-top: 15px;
+}
+
+.intereses label {
+	font-size: 14px;
+}
+
+.cont {
+	color: white;
+	display: flex;
+}

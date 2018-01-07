@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mojito Cafe Bar</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<section class="portada">
+		<img src="imagenes/logo2.jpg" class="logo">
+		<header class="header">
+			<nav class="menu">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="index.html#Cocteles">Cocteles</a>
+					</li>
+					<li>
+						<a href="recetas.html">Recetas</a>
+					</li>
+					<li>
+						<a href="precios.html">Precios</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="buscador">
+				<textarea name="buscador" id="buscador" cols="15" rows="1"></textarea>
+			<input type="submit" value="Buscar" class="but1"/>
+			</div>			
+		</header>
+	</section>
+	<section class="background">
+		<div class="contenedor">
+			<h1 class="titulo"> Mojito Cafe Bar </h1> <!-- Titulo -->
+			<h3 class="resumen"> Reinventando el Significado de la Palabra Bar </h3> <!-- Resumen -->
+			<button class="button1">Conoce Más</button>	<!-- Boton -->
+		</div>
+	</section> 
+	<section id="cocteles" class="cocteles contenedor"><!-- Cocteles-->
+		<h2>Nuestros Cocteles</h2><!-- titulo -->
+		<article class="coctel"> <!-- coctel 1 -->
+			<img class="coctel1" src="imagenes/luna.jpg" width="250" alt="Luna Azul">
+			<div class="contenedor1">
+				<h3>Luna Azul</h3>
+				<ol>
+					<li>Vodka</li>
+					<li>Curacao Azul</li>
+					<li>Leche</li>
+				</ol>	
+			</div>
+		</article>
+		<article class="coctel "> <!-- coctel 2 -->
+			<img class="coctel2" src="imagenes/coffe.jpg" width="250" alt="Coffe Cherry Shot">
+			<div class="contenedor2">
+				<h3>Coffe Cherry Shot</h3>
+				<ol class="ccs">
+					<li>Crema de Whisky</li>
+					<li>Licor de Café</li>
+					<li>Granadina</li>
+				</ol>
+			</div>
+		</article> 
+	</section>
+	<footer class="footer">
+	<div class="contenedor">
+	<div class="contacto">
+		<img src="imagenes/logo2.jpg" alt="Logotipo blanco" width="400" height="100">
+		<a href="tel:+573228079988"><strong>Telefono</strong> <samp>3228079988</samp></a>
+		<a href="mailto:risc301@gmail.com"><strong>E-mail</strong> <samp>risc301@gmail.com</samp></a>
+	</div>
+	<form class="formulario">
+		<div class="col1">
+			<h3 class ="cont">Contactanos</h3>
+			<label for="Nombre">Nombre</label>
+			<input type="text" required id="Nombre" name="nombre" />
+			<label for="E-mail">E-mail</label>
+			<input type="email" required id="E-mail" name="email">
+			<div class="sexo">
+				<label for="mujer">
+					<input type="radio" checked id="mujer" name="sexo" value="mujer">Mujer
+				</label>
+				<label for="hombre">
+					<input type="radio" id="hombre" name="sexo" value="hombre">Hombre
+				</label>
+			</div>
+			<div class="intereses">
+				<label for="Cotizacion">
+					<input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion">Cotizacion	
+				</label>
+				<label for="Reclamos">
+					<input type="checkbox" id="reclamos" name="intereses" value="reclamos">Reclamos
+				</label>
+				<label for="Comentarios">
+					<input type="checkbox" id="intereses" name="intereses" value="comentarios">Comentarios	
+				</label>
+				<label for="Otros">
+					<input type="checkbox" id="otros" name="intereses" value="otros">Otros	
+				</label>
+			</div>
+		</div>
+		<div class="col2">
+			<label for="comentarios">Comentarios</label>
+			<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+			<input type="submit" value="Enviar" class="button2"/>
+		</div>		
+	</form>			
+	</div>
+	</footer>
+</body>
+</html>
