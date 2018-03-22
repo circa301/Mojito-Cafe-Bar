@@ -45,7 +45,7 @@ input:focus, textarea:focus {
 }
 
 .background {
-	background-image: url("../imagenes/background.png");
+	background-image: url("../imagenes/Background.png");
 	background-size: cover;
 	padding-bottom: 500px;
 }
